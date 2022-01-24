@@ -1,0 +1,45 @@
+{
+  "name": "magic-components",
+  "version": "1.0.0",
+  "description": "Reusable React components",
+  "scripts": {
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Alisson Mateus de Oliveira",
+  "license": "UNLICENSED",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@linaria/rollup": "^3.0.0-beta.15",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/react": "^6.4.14",
+    "@types/react": "^17.0.38",
+    "babel-loader": "^8.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.66.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-dts": "^4.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@linaria/babel-preset": "^3.0.0-beta.15",
+    "@linaria/core": "^3.0.0-beta.15",
+    "@linaria/react": "^3.0.0-beta.15",
+    "@linaria/shaker": "^3.0.0-beta.15"
+  }
+}
